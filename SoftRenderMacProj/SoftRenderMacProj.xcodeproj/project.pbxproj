@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		E5CD61251D38E3720058CB56 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E5CD61241D38E3720058CB56 /* main.cpp */; };
+		E5CD612E1D38E4970058CB56 /* SDL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5CD612B1D38E4970058CB56 /* SDL.framework */; };
+		E5CD612F1D38E4970058CB56 /* SDLMain.m in Sources */ = {isa = PBXBuildFile; fileRef = E5CD612D1D38E4970058CB56 /* SDLMain.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +27,9 @@
 /* Begin PBXFileReference section */
 		E5CD61211D38E3720058CB56 /* SoftRenderMacProj */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SoftRenderMacProj; sourceTree = BUILT_PRODUCTS_DIR; };
 		E5CD61241D38E3720058CB56 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		E5CD612B1D38E4970058CB56 /* SDL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDL.framework; path = ../../platform/osx/SDL.framework; sourceTree = "<group>"; };
+		E5CD612C1D38E4970058CB56 /* SDLMain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SDLMain.h; path = ../../platform/osx/SDLMain.h; sourceTree = "<group>"; };
+		E5CD612D1D38E4970058CB56 /* SDLMain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SDLMain.m; path = ../../platform/osx/SDLMain.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +37,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E5CD612E1D38E4970058CB56 /* SDL.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -57,6 +63,9 @@
 		E5CD61231D38E3720058CB56 /* SoftRenderMacProj */ = {
 			isa = PBXGroup;
 			children = (
+				E5CD612B1D38E4970058CB56 /* SDL.framework */,
+				E5CD612C1D38E4970058CB56 /* SDLMain.h */,
+				E5CD612D1D38E4970058CB56 /* SDLMain.m */,
 				E5CD61241D38E3720058CB56 /* main.cpp */,
 			);
 			path = SoftRenderMacProj;
@@ -118,6 +127,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E5CD612F1D38E4970058CB56 /* SDLMain.m in Sources */,
 				E5CD61251D38E3720058CB56 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -239,6 +249,7 @@
 				E5CD612A1D38E3720058CB56 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
