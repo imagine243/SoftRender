@@ -8,5 +8,7 @@ int main(int argc, char *argv[]) {
 //    
 //    win.run();
     
+    NSLog(@"Hello, World!");
+    
     return 0;
 }
