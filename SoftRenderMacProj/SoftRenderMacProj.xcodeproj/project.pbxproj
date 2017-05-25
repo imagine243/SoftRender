@@ -12,6 +12,7 @@
 		E52D7F021D5343850083C55A /* SDLMain.m in Sources */ = {isa = PBXBuildFile; fileRef = E52D7EFF1D5343850083C55A /* SDLMain.m */; };
 		E54D41DD1E02794F002A98DB /* chimagie.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E54D41DB1E02794F002A98DB /* chimagie.cpp */; };
 		E54D41E01E02800D002A98DB /* chfoundation.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E54D41DE1E02800D002A98DB /* chfoundation.cpp */; };
+		E5E259971E07D6C100CE6F74 /* chMatrix.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E5E259951E07D6C100CE6F74 /* chMatrix.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -46,6 +47,8 @@
 		E54D41DE1E02800D002A98DB /* chfoundation.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = chfoundation.cpp; sourceTree = "<group>"; };
 		E54D41DF1E02800D002A98DB /* chfoundation.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = chfoundation.hpp; sourceTree = "<group>"; };
 		E5CD61211D38E3720058CB56 /* SoftRenderMacProj */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SoftRenderMacProj; sourceTree = BUILT_PRODUCTS_DIR; };
+		E5E259951E07D6C100CE6F74 /* chMatrix.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = chMatrix.cpp; sourceTree = "<group>"; };
+		E5E259961E07D6C100CE6F74 /* chMatrix.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = chMatrix.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +92,8 @@
 				E54D41DC1E02794F002A98DB /* chimagie.hpp */,
 				E54D41DE1E02800D002A98DB /* chfoundation.cpp */,
 				E54D41DF1E02800D002A98DB /* chfoundation.hpp */,
+				E5E259951E07D6C100CE6F74 /* chMatrix.cpp */,
+				E5E259961E07D6C100CE6F74 /* chMatrix.hpp */,
 			);
 			name = source;
 			path = ../source;
@@ -171,6 +176,7 @@
 				E54D41DD1E02794F002A98DB /* chimagie.cpp in Sources */,
 				E52D7F001D5343850083C55A /* main.mm in Sources */,
 				E54D41E01E02800D002A98DB /* chfoundation.cpp in Sources */,
+				E5E259971E07D6C100CE6F74 /* chMatrix.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
